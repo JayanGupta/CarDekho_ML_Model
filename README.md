@@ -10,215 +10,38 @@
 
 <br/>
 
-<!-- Badges Row 1 - Status -->
+<!-- Status Badges -->
 ![GitHub last commit](https://img.shields.io/github/last-commit/JayanGupta/Car_Price_Predicting_Model?style=for-the-badge&color=00d9ff&labelColor=0d1117)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JayanGupta/Car_Price_Predicting_Model?style=for-the-badge&color=7c3aed&labelColor=0d1117)
 ![GitHub stars](https://img.shields.io/github/stars/JayanGupta/Car_Price_Predicting_Model?style=for-the-badge&color=fbbf24&labelColor=0d1117)
 ![GitHub forks](https://img.shields.io/github/forks/JayanGupta/Car_Price_Predicting_Model?style=for-the-badge&color=34d399&labelColor=0d1117)
-
-<br/>
-
-<!-- Badges Row 2 - Tech Stack -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-<br/>
-
-<!-- Badges Row 3 - Tools & Techniques -->
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
-![Lasso](https://img.shields.io/badge/Lasso-Regression-00d9ff?style=for-the-badge&labelColor=0d1117)
-![Ridge](https://img.shields.io/badge/Ridge-Regression-7c3aed?style=for-the-badge&labelColor=0d1117)
-![Pipeline](https://img.shields.io/badge/Sklearn-Pipeline-34d399?style=for-the-badge&labelColor=0d1117)
-![Feature Engineering](https://img.shields.io/badge/Feature-Engineering-fbbf24?style=for-the-badge&labelColor=0d1117)
-
-<br/><br/>
-
-<!-- Profile Views Counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=JayanGupta-CarPrice&label=Repository+Views&color=00d9ff&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=JayanGupta-CarPrice&label=Repository+Views&color=f472b6&style=for-the-badge)
 
 </div>
 
 ---
 
-<!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🧠 About This Project
 
-> *A complete, end-to-end Machine Learning pipeline that predicts used car resale prices — designed as a classroom-ready teaching notebook for absolute beginners.*
+> *A complete, end-to-end Machine Learning pipeline predicting used car resale prices — designed as a classroom-ready resource for beginners.*
 
-This project walks you through the **entire Machine Learning lifecycle** using the **CarDekho Used Cars** dataset. Every section follows a structured lesson format with simple explanations, beginner-friendly code, and real-world business context.
-
-<div align="center">
-
-| 🎯 Goal | 📊 Dataset | 🏆 Best Model | 📈 Accuracy |
-|:--------:|:----------:|:-------------:|:-----------:|
-| Predict Car Resale Price | 2,059 listings × 20 features | Lasso Regression | **R² = 89.5%** |
-
-</div>
-
-> **Note**: This is NOT a Kaggle competition notebook. This is a **teaching notebook** — the focus is on learning, simplicity, understanding, and storytelling.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📓 Notebook Teaching Format
-
-Every section follows this structured lesson pattern:
+This project demonstrates the entire Data Science lifecycle using the **CarDekho Used Cars** dataset. It serves as a comprehensive teaching tool, emphasizing clean code, robust data pipelines (preventing data leakage), and clear pedagogical explanations for every step of the process.
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────┐
-│  📖 What is it?      → Concept explained    │
-│  🤔 Why do we need?  → Business motivation  │
-│  💻 Code             → Simplest possible    │
-│  👀 What we observe? → Output explained     │
-│  🎓 What we learn?   → Key takeaway         │
-└─────────────────────────────────────────────┘
-```
+| 🎯 Goal | 📊 Dataset | 🏆 Champion Model | 📈 Accuracy (R²) |
+|:--------|:-----------|:------------------|:-----------------|
+| Predict Resale Price | 2,059 listings × 20 features | Lasso Regression (L1) | **89.5%** |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🗂️ Project Structure
+## 🗺️ Machine Learning Pipeline
 
-```
-📦 Car_Price_Predicting_Model
-│
-├── 📓 CarPrice_Prediction_Project.ipynb   # Complete teaching notebook (35 code cells)
-├── 📊 CarDekho.csv                        # Raw dataset (2,059 listings × 20 columns)
-└── 📄 README.md                           # You are here!
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📚 Notebook Curriculum
-
-<table>
-<tr>
-<th>📅 Section</th>
-<th>📖 Topic</th>
-<th>🔑 Key Concepts</th>
-</tr>
-
-<tr>
-<td align="center"><b>1</b></td>
-<td>🌟 Project Introduction</td>
-<td>What is Machine Learning, business motivation, automated car valuation</td>
-</tr>
-
-<tr>
-<td align="center"><b>2</b></td>
-<td>🎯 Problem Statement</td>
-<td>Regression vs Classification, defining target variable (<code>Price</code>)</td>
-</tr>
-
-<tr>
-<td align="center"><b>3</b></td>
-<td>📦 Import Libraries</td>
-<td>pandas, numpy, matplotlib, seaborn, scikit-learn ecosystem</td>
-</tr>
-
-<tr>
-<td align="center"><b>4</b></td>
-<td>📥 Load Dataset</td>
-<td>CSV loading, DataFrames, <code>.head()</code> inspection</td>
-</tr>
-
-<tr>
-<td align="center"><b>5</b></td>
-<td>🔍 Understand Dataset</td>
-<td><code>.shape</code>, <code>.info()</code>, <code>.describe()</code>, data types, missing values overview</td>
-</tr>
-
-<tr>
-<td align="center"><b>6</b></td>
-<td>🧹 Data Cleaning</td>
-<td>Duplicates, <code>str.extract</code> parsing, Structural Missingness (EVs), MCAR/MAR/MNAR</td>
-</tr>
-
-<tr>
-<td align="center"><b>7</b></td>
-<td>📊 Exploratory Data Analysis</td>
-<td>Histograms, Scatter Plots, Countplots, Correlation Heatmap, Outlier detection</td>
-</tr>
-
-<tr>
-<td align="center"><b>8</b></td>
-<td>🛠️ Feature Engineering</td>
-<td><code>Car_Age</code>, <code>Power_per_CC</code> (efficiency ratio), <code>Km_per_Year</code> (usage intensity)</td>
-</tr>
-
-<tr>
-<td align="center"><b>9</b></td>
-<td>⚙️ Data Preprocessing</td>
-<td>One-Hot Encoding concept, Dummy Encoding demo, StandardScaler explanation</td>
-</tr>
-
-<tr>
-<td align="center"><b>10</b></td>
-<td>🎯 Feature Selection</td>
-<td>Curse of Dimensionality, dropping high-cardinality columns</td>
-</tr>
-
-<tr>
-<td align="center"><b>11</b></td>
-<td>🔀 Train/Test Split</td>
-<td>80/20 split, Data Leakage prevention, structural imputation for EVs</td>
-</tr>
-
-<tr>
-<td align="center"><b>12</b></td>
-<td>🏗️ Model Building</td>
-<td><code>ColumnTransformer</code>, <code>Pipeline</code>, <code>TransformedTargetRegressor</code>, <code>sklearn.base.clone</code></td>
-</tr>
-
-<tr>
-<td align="center"><b>13</b></td>
-<td>🏋️ Model Training</td>
-<td>Lasso (L1) & Ridge (L2) fitting, regularization analogies</td>
-</tr>
-
-<tr>
-<td align="center"><b>14</b></td>
-<td>🔮 Predictions</td>
-<td>Generating predictions, Actual vs Predicted comparison table</td>
-</tr>
-
-<tr>
-<td align="center"><b>15</b></td>
-<td>📈 Model Evaluation</td>
-<td>MAE, RMSE, R² Score, <code>PredictionErrorDisplay</code>, Residual analysis</td>
-</tr>
-
-<tr>
-<td align="center"><b>16</b></td>
-<td>🧠 Feature Importance</td>
-<td>Coefficient extraction, Top 10 barplot, positive & negative price drivers</td>
-</tr>
-
-<tr>
-<td align="center"><b>17</b></td>
-<td>🏁 Conclusion</td>
-<td>Champion model selection, Custom car prediction showcase</td>
-</tr>
-
-<tr>
-<td align="center"><b>18</b></td>
-<td>🎓 Key Learnings</td>
-<td>ML vocabulary dictionary (Feature, Target, Overfitting, Regularization, etc.)</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🗺️ ML Pipeline Roadmap
+The project follows a structured, production-aligned approach to model development. Each phase is detailed in the accompanying Jupyter Notebook with "What, Why, and How" explanations.
 
 ```mermaid
 graph LR
@@ -244,80 +67,61 @@ graph LR
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛠️ Feature Engineering Highlights
+## 🛠️ Feature Engineering Impact
+
+Raw data often lacks the nuanced signals required for high-performing models. By applying domain knowledge, three critical features were engineered, resulting in a measurable performance boost.
 
 <div align="center">
 
-| 🔧 Feature | 📐 Formula | 💡 Business Intuition |
-|:-----------|:-----------|:---------------------|
-| `Car_Age` | `2026 - Year` | 📉 Captures depreciation — older cars = cheaper |
-| `Power_per_CC` | `Max_Power_bhp / Engine_cc` | ⚡ Engine efficiency — turbo vs naturally aspirated |
-| `Km_per_Year` | `Kilometer / Car_Age` | 🛣️ Usage intensity — highway cruiser vs city crawler |
+| Engineered Feature | Logic | Business Intuition |
+|:-------------------|:------|:-------------------|
+| `Car_Age` | `2026 - Year` | Directly captures depreciation |
+| `Power_per_CC` | `Max_Power_bhp / Engine_cc` | Engine efficiency (identifies turbocharged engines) |
+| `Km_per_Year` | `Kilometer / Car_Age` | Usage intensity (highway cruising vs city driving) |
 
-</div>
+<br>
 
-### 📈 Impact on Model Performance
+**Performance Gain Breakdown**
 
-<div align="center">
-
-| Version | R² Score | MAE (INR) | Change |
-|:--------|:--------:|:---------:|:------:|
-| ❌ Baseline (no engineered features) | 0.8848 | ₹4,00,064 | — |
-| ✅ + `Power_per_CC` + `Km_per_Year` | **0.8948** | **₹3,76,957** | **+1.0 pp** ⬆️ |
+| Model Configuration | R² Score | MAE (INR) |
+|:--------------------|:--------:|:---------:|
+| Baseline (Raw Features) | 0.8848 | ₹4,00,064 |
+| **+ Engineered Features** | **0.8948** | **₹3,76,957** |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📈 Results
+## 📈 Results & Evaluation
+
+The predictive models were integrated within strict Scikit-Learn `Pipeline` architectures to prevent data leakage and handle complex transformations (like log-transforming the highly skewed target variable).
 
 ### 🏆 Model Comparison
 
-<div align="center">
+| Model | Regularization | MAE (INR) | RMSE (INR) | R² Score | Verdict |
+|:------|:--------------:|----------:|-----------:|---------:|:-------:|
+| **Lasso Regression** | L1 | ₹3,76,957 | ₹8,57,226 | **0.8948** | 🏆 Champion |
+| Ridge Regression | L2 | ₹3,27,841 | ₹1,294,528| 0.7601 | Runner-up |
 
-| Model | MAE (INR) | RMSE (INR) | R² Score | Verdict |
-|:------|----------:|-----------:|---------:|:-------:|
-| **Lasso Regression (L1)** | ₹3,76,957 | ₹8,57,226 | **0.8948** | 🏆 Champion |
-| Ridge Regression (L2) | ₹3,27,841 | ₹12,94,528 | 0.7601 | Runner-up |
+### 🔑 Top Predictive Drivers
 
-</div>
+Using Lasso's coefficient penalization, the model automatically selected the most impactful features:
 
-### 🔑 Top Price Drivers (Lasso Coefficients)
-
-<div align="center">
-
-| Rank | Feature | Direction | Business Interpretation |
-|:----:|:--------|:---------:|:------------------------|
-| 1 | `Car_Age` | 📉 Negative | Older cars lose value (depreciation) |
-| 2 | `Transmission_Manual` | 📉 Negative | Manual cars sell for less than automatic |
-| 3 | `Max_Power_bhp` | 📈 Positive | More powerful engines = higher price |
-| 4 | `Make_Land Rover` | 📈 Positive | Luxury brand commands premium |
-| 5 | `Fuel Type_Petrol` | 📉 Negative | Petrol priced lower than diesel on average |
-
-</div>
-
-### 🔧 Custom Prediction Example
-
-```python
-Input:  Honda | 45,000 km | Petrol | Manual | First Owner | FWD
-        1198 cc | 87 bhp | 5 years old
-        Power_per_CC = 0.073 | Km_per_Year = 9,000
-
-Output: ₹ 7,87,608 INR (predicted resale value)
-```
+1. **`Car_Age` (📉 Negative)**: Depreciation is the strongest factor reducing value.
+2. **`Transmission_Manual` (📉 Negative)**: Manual vehicles consistently price lower than automatics.
+3. **`Max_Power_bhp` (📈 Positive)**: Higher performance directly correlates with higher resale prices.
+4. **`Make_Land Rover` (📈 Positive)**: Premium luxury brands maintain a significant base premium.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛠️ Tech Stack & Skills
+## 💻 Tech Stack & Tools
 
 <div align="center">
 
-### 🐍 Language
 <p>
-<img src="https://skillicons.dev/icons?i=python&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=python,vscode,jupyter,git,github&theme=dark" height="50"/>
 </p>
 
-### 📚 Libraries & Frameworks
 <p>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
@@ -326,21 +130,11 @@ Output: ₹ 7,87,608 INR (predicted resale value)
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-### 🧰 Tools & Platforms
 <p>
-<img src="https://skillicons.dev/icons?i=vscode,github,git&theme=dark" height="50"/>
-&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
-
-### 🤖 ML Techniques
-<p>
-<img src="https://img.shields.io/badge/Lasso_(L1)-Regularization-00d9ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Ridge_(L2)-Regularization-7c3aed?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Log_Target-Transformation-34d399?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Feature-Engineering-fbbf24?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Sklearn-Pipeline-f472b6?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Lasso_(L1)-00d9ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Ridge_(L2)-7c3aed?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Sklearn_Pipeline-34d399?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 </div>
@@ -369,52 +163,26 @@ jupyter notebook CarPrice_Prediction_Project.ipynb
 ```
 
 ### ☁️ Run on Google Colab
-
-1. Upload `CarPrice_Prediction_Project.ipynb` and `CarDekho.csv` to Colab
-2. Run all cells — no additional setup needed!
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📊 Dataset Details
-
-<div align="center">
-
-| Property | Value |
-|:---------|:------|
-| **Source** | CarDekho (Used Car Listings) |
-| **File** | `CarDekho.csv` |
-| **Rows** | 2,059 |
-| **Raw Columns** | 20 |
-| **Final Features** | 17 (after engineering + selection) |
-| **Target** | `Price` (INR) |
-
-</div>
-
-### 📋 Feature Glossary
-
-| Feature | Type | Notes |
-|:--------|:-----|:------|
-| `Make` | Categorical | Car manufacturer (Honda, Hyundai, BMW, etc.) |
-| `Kilometer` | Numerical | Total km driven |
-| `Fuel Type` | Categorical | Petrol, Diesel, CNG, Electric, LPG |
-| `Transmission` | Categorical | Manual or Automatic |
-| `Owner` | Categorical | First, Second, Third, Fourth |
-| `Seller Type` | Categorical | Individual, Corporate, Commercial |
-| `Drivetrain` | Categorical | FWD, RWD, AWD |
-| `Engine_cc` | Numerical | Parsed from "1198 cc" → 1198.0 |
-| `Max_Power_bhp` | Numerical | Parsed from "87 bhp @ 6000 rpm" → 87.0 |
-| `Length / Width / Height` | Numerical | Vehicle dimensions (mm) |
-| `Seating Capacity` | Numerical | Number of seats |
-| `Fuel Tank Capacity` | Numerical | Tank size in liters |
-| `Car_Age` | 🛠️ Engineered | `2026 - Year` |
-| `Power_per_CC` | 🛠️ Engineered | `Max_Power_bhp / Engine_cc` |
-| `Km_per_Year` | 🛠️ Engineered | `Kilometer / Car_Age` |
+1. Upload `CarPrice_Prediction_Project.ipynb` and `CarDekho.csv` to Google Colab.
+2. Run all cells — no additional setup is required.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🤝 Contributing
+## 📊 Dataset Overview
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/JayanGupta/Car_Price_Predicting_Model/issues).
+The dataset consists of **2,059** used car listings from CarDekho. 
+
+**Key Features Include:**
+- **Categorical**: `Make`, `Fuel Type`, `Transmission`, `Owner`, `Seller Type`, `Drivetrain`
+- **Numerical**: `Kilometer`, `Engine_cc`, `Max_Power_bhp`, `Length`, `Width`, `Height`, `Seating Capacity`, `Fuel Tank Capacity`
+
+*(Note: High cardinality features like `Model` and `Location` were dropped during the feature selection phase to mitigate the curse of dimensionality and prevent overfitting.)*
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🤝 Contributing & Support
+
+Contributions, issues, and feature requests are welcome! 
 
 1. 🍴 Fork the Project
 2. 🌿 Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -422,25 +190,11 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 4. 📤 Push to the Branch (`git push origin feature/AmazingFeature`)
 5. 🔃 Open a Pull Request
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## ⭐ Show Your Support
-
-Give a ⭐ if this project helped you learn Machine Learning! It motivates to keep creating more content.
+**If you found this project helpful for learning Machine Learning, please give it a ⭐!**
 
 <div align="center">
 
 [![Star History Chart](https://api.star-history.com/svg?repos=JayanGupta/Car_Price_Predicting_Model&type=Date&theme=dark)](https://star-history.com/#JayanGupta/Car_Price_Predicting_Model&Date)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📬 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-JayanGupta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JayanGupta)
 
 </div>
 
