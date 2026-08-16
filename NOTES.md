@@ -122,3 +122,7 @@ This document tracks engineering milestones, experiment logs, parameter optimiza
 - **Focus**: refactor: optimize vehicle age and depreciation feature transforms
 - **Technical Summary**: Engineered exponential depreciation curves conditioned on fuel type.
 
+### Milestone Log - 2026-08-16 (10:54)
+- **Focus**: docs: update LightGBM price prediction performance notes
+- **Technical Summary**: Documented R²: 0.912 and MAPE: 8.4% across multi-brand used vehicle dataset.
+
